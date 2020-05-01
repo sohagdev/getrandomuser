@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Cinzel', serif;
+  padding: none;
+  margin: none;
+}
+#user-img {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  padding: 5px;
+  border-radius: 50%;
+}
+#user-value {
+  font-size: 2em;
+  color: #000;
+  font-weight: bold;
+}
+#value-list li {
+  list-style: none;
+  display: inline;
+}
+
+#value-list li a {
+  font-size: 3em;
+  padding: 20px;
+  color: gray;
+  font-weight: lighter;
+}
+#value-list li .active {
+  color: lightgreen;
+}
